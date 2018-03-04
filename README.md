@@ -1,4 +1,4 @@
-# ActividadesJavaScript
+# Actividades en JavaScript
 Actividades para el desarrollo de los Fundamentos de JavaScript
 ## Actividades de Introducción.
 ### Tabla de multiplicar.
