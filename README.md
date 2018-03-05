@@ -72,8 +72,20 @@ Se pide generar un programa que dado número N, indique si es simpático o no.
 ### Número factorial.
 >   Realice el factorial de N.
 
----
 
+---
+## Actividades programacion juegos para practicar estructuras de control y de iteración.
+### Número aleatorio
+>En esta actividad se pide adivinar un número aleatorio que estará entre el 1 y el 100. Por tanto se preguntará al usuario un valor numérico usando la función prompt y si no acertamos el número que se ha generado aleatoriamente, imprimirá un mensaje (usando el document.write()) indicando si el número a acertar es más grande que el que hemos introducido o en caso contrario que el
+número sea más pequeño.
+>En el momento que se acierte el número el programa finaliza. También podemos finalizar el programa introduciendo la palabra “FIN”.
+>Con tal de ampliar y mejorar el programa, la aplicación podrá finalizar cuando se escriba FIN tanto en mayúsculas como en minúsculas.
+>También se deberá mostrar el número de intentos que ha realizado el usuario
+
+### Piedra papel o tijera.
+>Se deberá crear el juego Pieda, papel o tijera, donde aleatoriamente con Math.random(), se calculará una de los tres, y se preguntará al usuario que deberá dar su opción, se comprobará quien gana de los dos y se irá sumando el resultado en una variable, el juego parará cuando se escriba la palabra "FIN".
+---
+## Actividades para prácticar los closures.
 ### Closure 1
 > Comprobar el resultado de éste código, y después sustituye el var a por un let a
 ```javascript
