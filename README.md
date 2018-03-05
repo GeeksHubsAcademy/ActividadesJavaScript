@@ -71,3 +71,41 @@ Se pide generar un programa que dado número N, indique si es simpático o no.
 
 ### Número factorial.
 >   Realice el factorial de N.
+
+---
+
+### Closure 1
+> Comprobar el resultado de éste código, y después sustituye el var a por un let a
+```javascript
+function test(){
+   console.log(a);
+   console.log(prueba());
+   
+   var a =1;
+   function prueba(){
+    return 10;
+    }
+ }
+ test();
+ ```
+ 
+ ### Closure 2
+ > Crea una función padre  denominada cliente que tenga los atributos, nombre, appelido y edad.
+ > Crea una función hija que devuelva los valores contanados de nombre y apellido de los atributos getNombreCompleto()
+ 
+ ### Closure 3
+ > Comprueba lo que devuelve la siguiente función.
+ ```javascript
+ var a = 1
+ function primeraFuncion(numero) {
+  function segundaFuncion(numero2){
+   return a;
+   }
+   a = 5 ;
+   return segundaFuncion;
+ }
+ var primerResultado = primeraFuncion(5);
+ var resultado = primerResultado(2);
+ ```
+ 
+ --- 
