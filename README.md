@@ -33,3 +33,16 @@ Indícame la altura? 5
  *******
 *********
 ```
+
+### Contador hacia atras.
+> Crea una aplicación que nos muestre diferentes alerts contando desde 10 a 0 incluidos, utilizando el bucle de tipo While
+
+### Calcular el máximo de dos valores.
+> Dado dos valores nos debe indica cual es el mayor utilizando las sentencias if-then-else
+
+### Creditos universitarios
+>Crea una aplicación con JavaScript que permita calcular los créditos a convalidar con respecto a diferentes universidades. El usuario insertará una ciudad a la que desea convalidar los créditos. mediante un prompt .
+>A continuación se muestra la convalidación de créditos (Se recomienda utilizar la estructura switch) mediante un alert:
+>Universidad de Madrid y de Murcia: Se convalidarán 30 créditos
+>Universidad de Alicante: No se convalidan créditos
+>Universidad de Valencia, Granada y Córdoba: Se convalidan 50 créditos.
