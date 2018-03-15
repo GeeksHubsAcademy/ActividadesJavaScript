@@ -121,3 +121,15 @@ function test(){
  ```
  
  --- 
+ ## Actividades para prácticar los funciones flecha
+ > Crear una aplicación calculadora utilizando funciones flecha, donde se encuentren las funciones:
+ * Sumar
+ * Restar
+ * Multiplicar
+ 
+ > Crear una funcion anonima que se autoejecute  al arrancar la apicación que pregunte que operación deseas hacer de las descritas en el ejercicio anterior.
+ 
+ > Crea una función flecha que pasando dos parametros el nombre y apellidos me devuelva un string con el nombre completo.
+ 
+ > Crea una función flecha  que comprueba que el valor que el paso como argumento es un String o no y devuelva en el caso correcto un true, o un false.
+ 
