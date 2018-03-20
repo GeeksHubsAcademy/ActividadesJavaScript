@@ -133,3 +133,24 @@ function test(){
  
  > Crea una función flecha  que comprueba que el valor que el paso como argumento es un String o no y devuelva en el caso correcto un true, o un false.
  
+---
+## Actividades para prácticar con los arrays
+> Escribe una función que genere un array de un tamaño especfico, y que se rellene con números enteros, que se incrementa desde el númeor iniciado hasta el tamaño del array:
+> Por ejemplo: rangeArray(4,6) obtiene el resultado [4,5,6,7,8,9]
+> rangeArray(-9.3) obtiene el resultado [-9,-8,-7]
+
+> Escribe una función que combine dos arrays y elimine los elementos duplicados.
+> Por ejemplo: array1=[1,4,6,7]  array2=[4,5,8,9]  obtiene el resultado [1,5,6,7,8,9]
+
+> Escribe una función que muestre el elemento que más se repite en el array.
+> Por ejemplo arrayValor=[2,'a',4,5,1,'a','c,'c','a',3,6,'a'] Obtenemos el siguiente resultado a ->se repite 4 veces
+
+> Escribe una función que muestre si el valor que se le pasa es un array o no.
+> Por ejemplo esArray([1,2,3,4]) -> nos indicará true, esArray('Hola') -> nos indicará false
+
+> Escribe una función que al pasarle un vector de N elementos, lo clasifique de forma descendente.
+> Por ejemplo ordenaDescente([2,4,5,6])-> obtendremos [6,5,4,2]
+
+> Escribe una función que dado un vector elimine los ceros del mismo.
+> Por ejemplo eliminarCeros([3,0,5,6,0,3]) -> obtendremos [3,5,6,3]
+
