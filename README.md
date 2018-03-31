@@ -173,9 +173,9 @@ function test(){
    * Número.
    * Código postal(población o ciudad donde se encuentra el edificio).
    * Plantas del edificio ( dentro de cada planta tendremos un número de puertas y para cada puerta nos interesa almacenar el nombre del propietario).
-A continuación especificaremos todo lo que se necesita para la gestión de los diferentes edificios:
-Se deberá crear un objeto que permita instanciar edificios, para ello crearemos un constructor llamado Edificio al que se le pasará como parámetros la calle, el número y el código postal.
-Se crearán los siguientes meodos asociados al constructor Edificio:
+>A continuación especificaremos todo lo que se necesita para la gestión de los diferentes edificios:
+>Se deberá crear un objeto que permita instanciar edificios, para ello crearemos un constructor llamado Edificio al que se le pasará como parámetros la calle, el número y el código postal.
+>Se crearán los siguientes métodos asociados al constructor Edificio:
    * agregarPlantasyPuertas(numplantas,puertas): Se le pasará el número de plantas que queremos crear en el piso y el número de puertas por plantas. Cada vez que se llame a este método, añadirá el número de puertas y plantas indicadas en los parámetros, a las que ya están creadas previamente en el edificio.
    * modificarNumero(nuevoNumero): Se permitirá modificar el número del edificio, para ello se le pasará como parámetro el nuevo número.
    * modificarCalle(nuevaCalle): Se permitirá modificar la calle, para ello se le pasará el nombre de la nueva calle a modificar.
