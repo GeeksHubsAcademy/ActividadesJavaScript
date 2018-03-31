@@ -154,3 +154,34 @@ function test(){
 > Escribe una función que dado un vector elimine los ceros del mismo.
 > Por ejemplo eliminarCeros([3,0,5,6,0,3]) -> obtendremos [3,5,6,3]
 
+---
+
+## Actividades para prácticar Objetos.
+### Creación de objetos.
+> Realiza un programa que permita crear una estructura para objetos de tipo círculo al que le pasamos el radio cuando lo inicialicemos y que tenga una función que nos calcule su área, otra su longitud, y esos valores sean mostrados por pantalla.
+### Gestión de facturas.
+> Vamos a crear una aplicación para la creación de una estructura de objeto que almacene una factura. Las facturas dispondrán la siguiente información
+ * Nombre de la empresa.
+ * Dirección.
+ * Teléfono.
+ * Nif.
+> La información del cliente, una lista de elementos tales como descripción, precio y cantidad y otra con información básica de la factura (importe sin IVA, tipo de Iva, importe con IVA y Forma de Pago)
+
+### Gestión de edificios.
+> Se desea crear una aplicación en JavaScript para poder gestionar los edificios de diferentes ciudades o poblaciones. Para ello se desea almacenar la siguiente información correspondiente a cada edificio:
+   * Calle del edificio.
+   * Número.
+   * Código postal(población o ciudad donde se encuentra el edificio).
+   * Plantas del edificio ( dentro de cada planta tendremos un número de puertas y para cada puerta nos interesa almacenar el nombre del propietario).
+A continuación especificaremos todo lo que se necesita para la gestión de los diferentes edificios:
+Se deberá crear un objeto que permita instanciar edificios, para ello crearemos un constructor llamado Edificio al que se le pasará como parámetros la calle, el número y el código postal.
+Se crearán los siguientes meodos asociados al constructor Edificio:
+   * agregarPlantasyPuertas(numplantas,puertas): Se le pasará el número de plantas que queremos crear en el piso y el número de puertas por plantas. Cada vez que se llame a este método, añadirá el número de puertas y plantas indicadas en los parámetros, a las que ya están creadas previamente en el edificio.
+   * modificarNumero(nuevoNumero): Se permitirá modificar el número del edificio, para ello se le pasará como parámetro el nuevo número.
+   * modificarCalle(nuevaCalle): Se permitirá modificar la calle, para ello se le pasará el nombre de la nueva calle a modificar.
+   * modificarCodigoPostal(nuevoCP): Se permitirá la modificación del cdigo postal, para ello se proporcionará como parámetro el nuevo código postal.
+   * mostrarCalle(): Método que devolverá el nombre de la calle donde está situado el edificio.
+   * mostrarNumero(): Método que devolverá el número donde está situado el edificio.
+   * mostrarCodigoPostal(): Método que mostrará el código postal asociado a la población o ciudad donde está situado el edificio.
+   * agregarPropietario(nombre, planta, puerta): Se permitirá añadir un nuevo propietario donde se le pasará el nombre del propietario, el número de planta y el número de puerta. Se le asignará dicho propietario al piso en cuestión.
+   * mostrarPlantas(): Método que permitirá mostrar todos los propietarios de cada puerta del edificio.
